@@ -20,12 +20,13 @@ MODELS = [
     {
         "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         "label": "Paraphrase-mul-MiniLM-L12-v2"
+        # Lightweight multilangual model
     },
-    # {
-    #     "name": "BAAI/bge-m3",
-    #     "label": "BGE-M3",
-    #     # General multilingual baseline
-    # },
+    {
+        "name": "BAAI/bge-m3",
+        "label": "BGE-M3",
+        # General multilingual baseline
+    },
 ]
 
 # Evaluate at these cutoffs
